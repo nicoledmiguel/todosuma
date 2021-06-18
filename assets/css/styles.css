@@ -1,0 +1,1017 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,800&display=swap');
+
+body {
+  margin: 0 0 0 0;
+}
+/* nav */
+body, form input, textarea, button, select {
+  font-family: "poppins", sans-serif !important;
+}
+
+h3 {
+  font-weight: 700;
+  font-size: 1.7em;
+  margin-top: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+ul li a {
+  text-decoration: none;
+}
+
+header {
+  margin: 0px 5% 20px 5%;
+  padding-top: 40px;
+}
+
+header nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+header nav .menu-btn {
+  visibility: hidden;
+}
+
+header nav .nav-icon {
+  cursor: pointer;
+  display: none;
+}
+
+header nav ul {
+  display: flex;
+}
+
+header nav ul li a {
+  margin: 0 10px;
+  font-weight: 700;
+  font-size: 1.1em;
+  color: #04B998;
+}
+
+header nav ul li a:hover{
+  color: #F65D9A;
+}
+
+textarea {
+  resize: none;
+}
+
+p {
+  font-weight: 400;
+}
+
+.square-btn {
+  border-radius: 15%;
+  font-weight: 700;
+  margin: 15px;
+  background-color: #ffffff;
+  padding: 30px;
+  width: 100px;
+  height: 100px;
+  text-decoration: none;
+  font-size: 0.7em;
+}
+
+.btn {
+  width: 134px;
+  border: none;
+  border-radius: 30px;
+  color: #ffffff;
+  padding: 8px;
+  font-weight: 700;
+  text-align: center;
+  text-decoration: none;
+}
+
+.btn-sm {
+  border: none;
+  border-radius: 30px;
+  color: #ffffff;
+  padding: 4px 10px 4px 10px;
+  font-weight: 500;
+  font-size: 0.9em;
+  text-align: center;
+  text-decoration: none;
+}
+
+.btn-primary {
+  background-color: #F65D9A;
+}
+
+.btn-secondary {
+  background-color: #FFFFFF;
+  color: #15B5D2;
+}
+
+.btn-outline {
+  border: 3px solid #ffffff;
+}
+
+/* dropdown */
+
+.dropdown {
+  position: relative;
+}
+
+.dropdown > button {
+  border: none;
+  border-radius: 30px;
+  color: #ffffff;
+  padding: 4px 10px 4px 10px;
+  font-size: 1em;
+  cursor: pointer;
+}
+
+.dropdown-content {
+  position: absolute;
+  margin-left: auto;
+  right: 0;
+  margin-top: 4px;
+  background-color: #F65D9A;
+  border-radius: 15px;
+  color: #ffffff;
+  padding: 10px;
+  font-weight: 300;
+  display: none;
+}
+
+.dropdown-content > li {
+  cursor: pointer;
+}
+
+.dropdown button i.fa-chevron-down {
+  display: none;
+}
+
+.dropdown-content > li:nth-child(2) {
+  margin-top: 10px;
+}
+
+/* end dropdown */
+
+.input {
+  margin-bottom: 1.5em;
+  background-color: #CCFCF3;
+  border-radius: 15px;
+  border: none;
+  padding: 10px;
+  outline: none;
+}
+
+.contenedor {
+  padding: 108px 0 108px 0;
+  color: #ffffff;
+}
+
+.primary-color {
+  color: #F65D9A
+}
+
+.secondary-color {
+  color: #15B5D2;
+}
+
+.tertiary-color {
+  color: #0BBD9D;
+}
+
+.quaternary-color {
+  color: #B3B3B3;
+}
+
+.quaternary-color a {
+  color: #B3B3B3;
+}
+
+
+/* fin nav */
+
+/* botones index quiero ayudar / quiero donar / voluntariado */
+
+#donar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#donar h1 {
+  font-weight: 800;
+  font-size: 3.5em;
+  letter-spacing: 0.5%;
+  margin: 20px 0 0 0;
+}
+
+#donar h2 {
+  color: #000000;
+  opacity: 50%;
+  font-weight: 500;
+  font-size: 1.9em;
+  margin: 0;
+}
+
+#donar ul {
+  display: flex;
+  margin-bottom: 30px;
+}
+
+#donar ul li {
+  border-radius: 15%;
+  font-size: 1.2em;
+  font-weight: 700;
+  margin: 15px;
+}
+
+#donar ul li:nth-child(1) {
+  background-color: #F65D9A;
+  box-shadow: 2.38321px 17.8741px 30.9817px 2.38321px rgba(246, 93, 154, 0.5);
+}
+
+#donar ul li:nth-child(2) {
+  background-color: #0BBD9D;
+  box-shadow: 2.38321px 17.8741px 30.9817px rgba(11, 189, 157, 0.5);
+}
+
+#donar ul li:nth-child(3) {
+  background-color:#15B5D2;
+  box-shadow: 2.38321px 17.8741px 30.9817px 2.38321px rgba(21, 181, 210, 0.5);
+}
+
+#donar ul li:hover {
+	opacity: 0.9;
+	transform: translateY(-15px);
+	transition: 0.5s;
+}
+
+#donar ul li a {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  color: #ffffff;
+  width: 200px;
+  height: 200px;
+  text-align: center;
+}
+
+
+#donar img{
+  margin: 10% 0 10% 0;
+}
+
+/* fin botones */
+
+/* quienes somos index */
+
+#quienes-somos {
+  text-align: center;
+  padding: 50px 35% 0 35%;
+}
+
+#quienes-somos-fondo {
+  display: block;
+}
+
+#quienes-somos p:nth-child(3) {
+  font-weight: 800;
+}
+
+/* fin quienes somos */
+
+/* proyectos - index*/
+ 
+#proyectos {
+  background-color: #F65D9A;
+  text-align: center;
+}
+
+#proyectos > div {
+  display: flex;
+}
+
+#proyectos h3 {
+  margin-bottom: 60px;
+}
+
+.comedores {
+  margin-right: 20px;
+  background-color: #ffffff;
+  border-radius: 15px;
+  padding: 15px;
+}
+
+.comedores h4 {
+  margin-bottom: 0;
+  font-size: 1.2em;
+}
+
+.nombre-ong {
+  margin-top: 0;
+  font-size: 0.9em;
+}
+
+.comedores-ubicacion {
+  margin-top: 0;
+  font-size: 0.9em;
+}
+
+.comedores-descripcion {
+  font-size: 0.9em;
+}
+/* fin proyectos */
+
+/* contacto index */
+
+#contacto {
+  background-color: #02BE9C;
+  display: flex;
+  justify-content: space-between;
+  padding: 40px 5% 40px 5%;
+}
+
+#contacto h3 {
+  color: #ffffff;
+	margin-bottom: 0;
+}
+
+#contacto p {
+  font-size: 1em;
+  font-weight: 500;
+  color: #ffffff;
+}
+
+.contacto {
+display: flex;
+flex-direction: column;
+justify-content: center;
+flex: 0.4;
+}
+
+#contacto p:nth-child(3) {
+  font-weight: 800;
+}
+
+#contacto aside form {
+  display: flex;
+  flex-direction: column;
+  padding: 40px;
+  margin: 0;
+  background-color: #ffffff;
+  border-radius: 30px;
+  width: 400px;
+}
+
+#contacto aside form button {
+  margin-left: auto;
+}
+
+#contacto aside form input, textarea {
+  margin-bottom: 1.5em;
+  background-color: #CCFCF3;
+  border-radius: 15px;
+  border: none;
+  padding: 10px;
+  outline: none;
+}
+/* contacto index */
+/* footer */
+
+footer {
+  padding: 40px 5% 40px 5%;
+}
+
+#informacion {
+  flex: 0.5;
+}
+
+#informacion a {
+    text-decoration: none;
+}
+
+#informacion a:hover {
+    text-decoration: underline;
+}
+
+#quienes-somos-descripcion {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+
+#nav-footer {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.8em;
+}
+
+#nav-footer ul {
+  display: flex;
+}
+
+#nav-footer ul li {
+  margin-left: 5px;
+}
+
+#nav-footer ul li a{
+  text-decoration: none;
+}
+
+#newsletter p {
+  font-weight: 700;
+}
+
+#newsletter div {
+  border: 1px solid;
+  border-color: #8EE3F2;
+  border-radius: 30px;
+  padding: 5px 10px 5px 10px;
+}
+
+#newsletter div form {
+  display: flex;
+}
+
+#newsletter button {
+  cursor: pointer;
+}
+
+#newsletter div form input {
+  border: none;
+  background: none;
+  padding: 0;
+  width: 100%;
+}
+
+#newsletter div form input:focus {
+  border: none;
+  background: none;
+  outline: none;
+}
+
+#newsletter div form input, button {
+  border: none;
+  background: none;
+  padding: 0;
+}
+
+#redes-sociales {
+  margin-bottom: 30px;
+}
+
+#redes-sociales ul {
+  display: inline-flex;
+  padding-left: 0;
+}
+
+#redes-sociales ul li {
+  margin-right: 15px;
+}
+
+#nav-footer {
+  border-top: 1px solid #8EE3F2;
+}
+
+/* fin footer */
+
+/* quiero recibir ayuda */
+#ingreso {
+  display: flex;
+  justify-content: space-between;
+}
+
+#iniciar-sesion {
+  padding: 30px 5% 30px 5%;
+  flex-grow: 0.5;
+  text-align: center;
+}
+
+#iniciar-sesion form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-left: 20%;
+  padding-right: 20%;
+}
+
+#iniciar-sesion form a {
+  margin-bottom: 20px;
+  color: black;
+  font-size: 0.7em;
+}
+
+
+#iniciar-sesion form input {
+  width: 100%;
+}
+
+
+#registro {
+  flex-grow: 0.5;
+  background-color:#15B5D2;
+  padding: 30px 5% 50px 5%;
+}
+
+#registro h1 {
+  color: #FFFFFF;
+  text-align: center;
+}
+
+#registro p {
+  color: #ffffff;
+  margin-top: 0px;
+  font-size: 0.7em;
+}
+
+#registro form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+#registro form select {
+  color: gray;
+}
+
+#registro form button {
+  margin-left: auto;
+  cursor: pointer;
+}
+
+#registro from input[type="email"] {
+  flex: 3;
+}
+
+#registro form .registro-separacion {
+  margin-right: 20px;
+}
+
+#registro-entidad {
+  display: flex;
+  justify-content: space-between;
+}
+
+#registro-entidad input {
+  flex-grow: 0.5;
+  
+}
+
+#registro-entidad select {
+  flex-grow: 0.5;
+}
+
+#registro input[name="email"] {
+  width: 45%;
+}
+
+#repetir-contrasena {
+  display: flex;
+  justify-content: space-between;
+}
+
+#repetir-contrasena input {
+  flex-grow: 0.5;
+}
+/* fin quiero recibir ayuda */
+
+/* seccion donaciones */
+
+#donaciones {
+  background-color: #F65D9A;
+  padding: 40px 5% 40px 5%;
+  margin: auto;
+}
+
+#donaciones h1{
+  text-align: center;
+  color: #ffffff;
+}
+
+#donaciones ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding-left: 26%;
+  padding-right: 26%;
+}
+
+#donaciones ul li:nth-child(3n) {
+  flex-break: after;
+}
+
+#donaciones ul li a {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;  
+  align-items: center;
+}
+
+#donaciones ul li a img {
+  margin-bottom: 10px;
+}
+
+/* seccion voluntario */
+
+#voluntario {
+  background-color: #04B998;
+  padding: 40px 5% 40px 5%;
+  margin: auto;
+}
+
+#voluntario h1{
+  text-align: center;
+  color: #ffffff;
+}
+
+#voluntario ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding-left: 26%;
+  padding-right: 26%;
+}
+
+#voluntario ul li a {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;  
+  align-items: center;
+}
+
+#voluntario ul li a img {
+  margin-bottom: 10px;
+}
+
+/* Comedores ubicacion */
+#comedores-ubicacion {
+  background-color: #F65D9A;
+}
+
+#organizaciones {
+  background-color: #0BBD9D;
+}
+
+
+.ubicacion {
+  padding: 30px 10% 30px 10%;
+}
+
+.ubicacion h1 {
+  text-align: center;
+  color: #ffffff;
+}
+
+.ubicacion h3 {
+  margin-bottom: 0px;
+}
+
+.ubicacion h4 {
+  margin-top: 0px;
+  margin-bottom: 5px;
+  font-weight: 500;
+}
+
+.ubicacion > ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.ubicacion > ul > li {
+  border-radius: 20px;
+  font-weight: 700;
+  margin: 15px;
+  background-color: #ffffff;
+  padding: 20px;
+  text-decoration: none;
+  font-size: 0.7em;
+  width: 400px;
+}
+
+.ubicacion > ul > li p {
+  margin: 0;
+}
+
+.ubicacion > ul li > a {
+  margin: 0;
+  font-weight: 400;
+}
+
+.ubicacion > ul > li a:hover {
+  text-decoration: underline;
+}
+
+.ubicacion > ul > li button {
+  margin-left: auto;
+  display: block;
+}
+
+
+/* Seccion mapa */
+
+#mapa {
+  padding: 50px 24% 70px 24%;
+  background-color: #F65D9A;
+}
+
+#mapa .filtros {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 30px;
+  margin-bottom: 10px;
+}
+
+#mapa .filtros a {
+  padding: 4px 8px 4px 8px;
+  width: 12px;
+  height: 20px;
+}
+
+#mapa iframe {
+  border-radius: 30px;
+  width: 100%;
+}
+
+#mapa input {
+  flex-grow: 1;
+  border: none;
+  background: none;
+  padding: 0;
+  color: #ffffff;
+}
+
+#mapa input:focus {
+  border: none;
+  background: none;
+  outline: none;
+}
+
+#mapa input::placeholder {
+  color: #ffffff;
+  font-size: 0.8em;
+}
+
+#mapa .search-input {
+  border: 3px solid #ffffff;
+  border-radius: 30px;
+  padding: 5px 10px 5px 10px;
+  color: #ffffff;
+  flex-grow: 0.5;
+}
+
+#mapa .search-input form {
+  display: flex;
+  justify-content: space-between;
+}
+
+#mapa .search-input button i {
+  color: #ffffff;
+  cursor: pointer;
+}
+
+#animacion {
+	position: relative;
+}
+
+#preloader {
+  background: #04B998; 
+  width:100%; 
+  height:100%; 
+  position:fixed;
+  z-index: 9999;
+  display: flex; 
+  flex-direction:column;
+  align-items: center;
+  justify-content: center;
+}
+
+#preloader > h1 {
+  color:white; 
+  font-size: 3.5em;
+  margin:0;
+}
+
+#preloader > div {
+  display: flex;
+  flex-direction:column;
+  position: relative;
+  width:300px;
+  height:140px;
+  justify-content:center;
+  align-items: center;
+}
+
+#preloader > div > img {
+  position: absolute;
+}
+
+/* Media queries */
+
+@media screen and (max-width: 1200px) {
+  header nav .menu {
+  visibility: hidden;
+  transition: max-height 0.2s ease-out;	
+  max-height: 0;
+  z-index: 1;
+  position: absolute;
+	  
+  }
+
+  header nav .nav-icon {
+    display: inline;
+  }
+
+  header .menu-btn:checked ~ .menu {
+    flex-direction: column;
+    background-color: #F65D9A;
+    color: #ffffff;
+    margin: 0;
+    padding: 100px 0 100px 0;
+	  max-height: 300px;
+    width: 100%;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    text-align: center;
+    visibility: visible;
+	  border-bottom-left-radius: 100% 40%;
+	  border-bottom-right-radius: 100% 40%;
+	  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  }
+
+  header .menu-icon {
+    padding-top: 18px;
+  }
+
+  header nav ul li {
+  	margin-bottom: 20px;
+  }
+
+  header nav ul li a{
+    color: #ffffff;
+  }
+
+  header nav ul li a:hover{
+    color: #ffffff;
+  }
+
+  .square-btn {
+    padding: 15px;
+  }
+  #nav-footer {
+    text-align: center;
+  }
+
+  #nav-footer ul {
+    padding: 0;
+    justify-content: center;
+  }
+
+  #donar {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+
+  #donar h1 {
+    font-size: 2.3em;
+  }
+
+  #donar h2 {
+    font-size: 1.4em;
+  }
+
+  #donar ul {
+    flex-direction: column;
+    justify-content: center;
+    padding: 0px;
+  }
+
+  #donar ul li {
+    border-radius: 15px;
+    font-size: 1.2em;
+    font-weight: 700;
+    margin: 15px 0 15px 0;
+  }
+
+  #donar ul li:nth-child(1), 
+  #donar ul li:nth-child(2), 
+  #donar ul li:nth-child(3) {
+    box-shadow: none;
+  }
+
+  #donar ul li a {
+    flex-direction: row;
+    width: 100%;
+    height: 60px;
+    text-align: center;
+    font-size: 0.9em;
+  }
+
+  #donar ul li a img {
+    margin-right: 10px;
+    width: 60px;
+    height: 60px;
+  }
+  
+  #proyectos h3 {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+
+  #contacto {
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+  }
+
+  #contacto aside form {
+    width: inherit;
+    padding: 20px;
+  }
+
+  #quienes-somos {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+
+  #quienes-somos-descripcion {
+    flex-direction: column;
+  }
+
+  #nav-footer {
+    flex-direction: column;
+  }
+
+  #ingreso {
+    flex-direction: column;
+  }
+
+  #iniciar-sesion {
+    padding-top: 0;
+  }
+
+  #iniciar-sesion form {
+    padding-left: 3%;
+    padding-right: 3%;
+  }
+
+  #registro {
+    padding-top: 0;
+  }
+
+  #registro input[name="email"] {
+    width: auto;
+  }
+
+  #registro form {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  #registro-entidad {
+    flex-direction: column;
+  }
+
+  #registro form .registro-separacion {
+    margin-right: 0;
+  }
+
+  #repetir-contrasena {
+    flex-direction: column;
+  }
+
+  #repetir-contrasena input {
+    width: auto;
+
+  }
+    
+  #donaciones ul, #voluntario ul {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  #donaciones ul li {
+    padding: 0;
+  }
+
+  #mapa {
+    padding: 30px 5% 50px 5%;
+  }
+
+  #comedores-ubicacion > ul {
+    padding: 0;
+  }
+
+  #organizaciones > ul {
+    padding: 0;
+  }
+
+}
+
