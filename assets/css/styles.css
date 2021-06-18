@@ -685,6 +685,7 @@ footer {
 
 .ubicacion > ul > li {
   border-radius: 20px;
+  font-size: 1em;
   font-weight: 700;
   margin: 15px;
   background-color: #ffffff;
